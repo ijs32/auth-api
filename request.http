@@ -1,0 +1,20 @@
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "testdude",
+  "email": "testdude@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+###
+
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "testdude@example.com",
+  "password": "password"
+}
+
